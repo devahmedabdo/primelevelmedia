@@ -1,0 +1,13 @@
+#landing {
+  background: url("../../../../../assets/background.png") center center
+    no-repeat;
+  background-size: cover;
+
+  .home {
+    @apply w-8 md:w-16 absolute;
+    // @apply w-6 h-6 md:w-11 md:h-45
+    img {
+      @apply w-full;
+    }
+  }
+}

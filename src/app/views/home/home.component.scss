@@ -1,0 +1,10 @@
+footer {
+  h3 {
+    @apply text-blueColor text-2xl font-bold pb-8;
+  }
+  ul {
+    li {
+      @apply text-[15px] leading-10 hover:text-blueColor duration-300;
+    }
+  }
+}

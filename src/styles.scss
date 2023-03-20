@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+@use "./animation.scss" as *;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  ::selection {
+    @apply bg-blueColor text-white;
+  }
+  html {
+    scroll-behavior: smooth;
+    body {
+      @apply bg-bgLight text-white;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+      hr {
+        @apply border-white;
+      }
+    }
+  }
+}
+@layer utilities {
+  .container {
+    @apply max-w-[1200px] mx-auto px-2;
+  }
+}
+@layer components {
+  .btn {
+    @apply px-5 py-2 font-medium text-xs md:text-lg bg-blueColor  rounded-[10px] hover:shadow-xl duration-300;
+  }
+}
