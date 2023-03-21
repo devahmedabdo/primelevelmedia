@@ -21,5 +21,6 @@ export class HomeComponent implements OnInit {
       link: 'https://www.linkedin.com/company/prime-level-media/?viewAsMember=true&fbclid=IwAR2fOLAwCTiovrIZBnmJwr3l6rR80O9R-wRBUmSIDWLjiLbtvGmHQHBjr2U',
     },
   ];
+  year: number = new Date().getFullYear();
   ngOnInit(): void {}
 }
