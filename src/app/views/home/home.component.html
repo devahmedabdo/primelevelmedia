@@ -4,12 +4,17 @@
 <hr>
 <app-testimonials></app-testimonials>
 <hr>
-<div class="py-12 uppercase px-4">
-  <div class="container md:text-3xl text-2xl  rounded-3xl text-center py-24 flex gap-10 items-center flex-col">
-    <h2 class="text-blueColor uppercase font-bold dReveal">SO WHAT ARE YOU
-      WAITING FOR ?</h2>
-    <a class="btn  font-medium px-5 lg:px-10" href="https://calendly.com/autoleadsmedia/30min"> SCHEDULE A
+<div class=" uppercase px-4">
+  <div style="padding-top: 40px;" class="container md:text-3xl text-2xl">
+    <a style="max-width: 320px;" class="btn mx-auto block font-medium px-5 lg:px-10 text-center"
+      href="https://calendly.com/primelevelmedia/15min?fbclid=IwAR2FjIf3exgpsC8q2xHLqGO73BeL6JcweloKpCTLT-z0A8PxbAA8Z1jX3Zs">
+      SCHEDULE A
       CALL </a>
+  </div>
+  <div class="flex justify-center gap-10" style="margin: 40px 0px;">
+    <a *ngFor="let link of links" [href]="link.link">
+      <img class="w-10" [src]="'assets/'+link.img" alt="">
+    </a>
   </div>
 </div>
 <hr>

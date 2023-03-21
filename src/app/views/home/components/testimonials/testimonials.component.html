@@ -1,10 +1,9 @@
 <div id="testimonials">
   <div class="container">
-    <div class="flex justify-center gap-8">
+    <div class="flex justify-center gap-8  py-5">
       <img class="hidden md:block w-16" src="assets/hummer.svg" alt="">
       <div class="uppercase text-blueColor font-bold text-center py-10">
-        <h2 class="text-xs md:text-xl dReveal text-black">TESTIMONIALS</h2>
-        <p class="text-2xl md:text-3xl dReveal">HEAR WHAT OUR PARTNERS SAY</p>
+        <p class="text-2xl md:text-3xl  ">WHAT OUR PARTNERS ARE SAYING</p>
       </div>
       <img class="hidden md:block w-16" src="assets/helt.svg" alt="">
     </div>
@@ -18,10 +17,11 @@
       <swiper [config]="config" class="max-w-4xl mx-auto">
         <ng-template swiperSlide *ngFor="let testi of tetimonials">
           <div
-            class="h-72 select-none py-6 px-3 mx-auto bg-white border-2 rounded-[10px] text-black max-w-[270px] text-center">
-            <img class="w-20 m-auto" src="assets/testimonials/{{testi.img}}" alt="">
-            <h2 class="uppercase text-2xl font-bold my-8">{{testi.name}}</h2>
+            class="testi py-5 flex flex-col justify-center gap-5 select-none mx-auto bg-white border-2 rounded-[10px] text-black max-w-[270px] text-center ">
+            <img class="w-20 mx-auto" src="assets/testimonials/{{testi.img}}" alt="">
+            <h2 class="uppercase text-2xl font-bold ">{{testi.des}}</h2>
             <p class="text-xs font-medium">{{testi.opinion}}</p>
+            <span class="font-bold text-xs block">{{testi.name}}</span>
           </div>
         </ng-template>
 
