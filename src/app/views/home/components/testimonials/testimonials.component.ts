@@ -55,9 +55,9 @@ export class TestimonialsComponent implements OnInit {
       name: `BEN PENEBIANCO 3/8/2023`,
       des: `NO REGRETS`,
       img: `user3.png`,
-      opinion: `Awesome job! I'm beyond satisfied and 
-      look forward to working with you guys 
-      until my back gives out!!`,
+      opinion: `Well, I believe in marketing now... Great 
+      group of guys. Special thanks to Juan 
+      Pablo and Eric for getting me steady work.`,
     },
     {
       name: `BEN PENEBIANCO 3/8/2023`,
