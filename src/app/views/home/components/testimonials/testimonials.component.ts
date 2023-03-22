@@ -52,7 +52,7 @@ export class TestimonialsComponent implements OnInit {
       until my back gives out!!`,
     },
     {
-      name: `BEN PENEBIANCO 3/8/2023`,
+      name: `Alberto Rios 3/8/2023`,
       des: `NO REGRETS`,
       img: `user3.png`,
       opinion: `Well, I believe in marketing now... Great 
@@ -60,7 +60,7 @@ export class TestimonialsComponent implements OnInit {
       Pablo and Eric for getting me steady work.`,
     },
     {
-      name: `BEN PENEBIANCO 3/8/2023`,
+      name: `BEN PANEBIANCO 3/10/2023`,
       des: `Great Experience`,
       img: `user4.png`,
       opinion: `Very surprised with how quickly I 
